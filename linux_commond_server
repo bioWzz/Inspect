@@ -1,0 +1,18 @@
+# load the package
+module load packageName
+module avial
+module list
+
+# make the run power of the folder
+chmod +x 777 pathOfFolder
+
+#login to server
+ssh wangz16@login.hpc.mssm.edu
+ssh interactive1
+
+# submit the job to the server
+bsub>1.sh
+bjobs -l
+bkill - jobnumber
+
+
