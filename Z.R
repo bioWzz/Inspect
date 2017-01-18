@@ -1,0 +1,13 @@
+save(real, file = "D:/data/real.Rdata") 
+save(sim, file = "D:/data/sim.Rdata") 
+save(sim.bkp, file = "D:/data/sim.bkp.Rdata") 
+save(ix,file = "D:/data/ix.Rdata")
+save(nullVar,file = "D:/data/nullVar.Rdata")
+save(qtCenters,file = "D:/data/qtCenters.Rdata")
+save(rdMeans,file = "D:/data/rdMeans.Rdata")
+save(rdQt,file = "D:/data/rdQt.Rdata")
+save(rdVars,file = "D:/data/rdVars.Rdata")
+save(sdMeans,file = "D:/data/sdMeans.Rdata")
+save(sdQt,file = "D:/data/sdQt.Rdata")
+save(sdVars,file = "D:/data/sdVars.Rdata")
+

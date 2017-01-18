@@ -1,0 +1,8 @@
+library(GenomicFeatures)
+library(INSPEcT)
+library(Rsamtools)
+txdb <- makeTxDbFromGFF(file="D:/ivan/Harm/NewTestFour/my/NN_5_9_Result/PR8complete.gtf",format="gtf",taxonomyId=9606)
+paths_4su <- system.file('extdata/Rep1/Genome', 'LabA-0hpi_genome.bam', package="INSPEcT")
+paths_total <- system.file('extdata/Rep1/Genome', 'UnlA-0hpi_genome.bam', package="INSPEcT")
+vRep1LabA0hpiRPKMsOut <- makeRPKMs(txdb, paths_4su, paths_total)
+save(vRep1LabA0hpiRPKMsOut, file = paste(ResultDir,"Rep1LabA0hpi.Rdata",sep=""))
