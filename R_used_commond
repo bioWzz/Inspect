@@ -1,6 +1,0 @@
-#Install teh TCGAbiolinks package
-source("http://bioconductor.org/biocLite.R")
-biocLite("TCGAbiolinks")
-
-#load the TCGAbiolinks package
-library(TCGAbiolinks)
